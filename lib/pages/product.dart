@@ -33,12 +33,13 @@ class _ProductState extends State<Product> {
       ),
     );
   }
+  
   void _exibirImagemPopup(BuildContext context) {
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return const AlertDialog(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.transparent,
           content:  Image(image: AssetImage('assets/images/ok.png')) 
           
         );

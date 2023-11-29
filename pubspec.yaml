@@ -30,7 +30,8 @@ flutter:
   assets:
     - assets/images/
 
-  # fonts:
+flutter_launcher_icons: ^0.13.1
+
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
